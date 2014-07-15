@@ -12,7 +12,7 @@ def read(*parts):
 
 setup(
     name="django-gunicorn",
-    version="0.1",
+    version="0.1.1",
     description="simple Django app to replace runserver with Gunicorn",
     long_description=read("README.md"),
     url="https://github.com/brosner/django-gunicorn",
