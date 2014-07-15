@@ -16,7 +16,7 @@ setup(
     description="simple Django app to replace runserver with Gunicorn",
     long_description=read("README.md"),
     url="https://github.com/brosner/django-gunicorn",
-    license="BSD",
+    license="MIT",
     packages=find_packages(),
     install_requires=[
         "gunicorn>=19.0.0",
